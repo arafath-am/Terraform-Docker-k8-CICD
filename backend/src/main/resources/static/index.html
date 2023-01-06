@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CampusCart</title>
+    <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+<header>
+    <h1>CampusCart</h1>
+    <p>Buy and sell used campus items</p>
+</header>
+
+<main>
+    <section class="panel">
+        <h2>Products</h2>
+        <div class="search-row">
+            <input id="searchInput" placeholder="Search books, electronics, furniture..." />
+            <button onclick="loadProducts()">Search</button>
+        </div>
+        <div id="products" class="grid"></div>
+    </section>
+
+    <section class="panel">
+        <h2>Cart</h2>
+        <div id="cart"></div>
+        <div class="checkout">
+            <input id="customerName" placeholder="Your name" />
+            <input id="customerEmail" placeholder="Your email" />
+            <button onclick="checkout()">Place Order</button>
+        </div>
+        <p id="message"></p>
+    </section>
+</main>
+
+<script src="/app.js"></script>
+</body>
+</html>
