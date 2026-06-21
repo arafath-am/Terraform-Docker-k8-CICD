@@ -215,8 +215,3 @@ Then create a Jenkins Pipeline job pointing to this repository.
 Built a Java Spring Boot student marketplace application and implemented DevOps automation using Docker, Kubernetes, Terraform, and Jenkins. Containerized the app with MySQL, deployed it to Kubernetes using Deployments, Services, ConfigMaps, Secrets, and PVCs, provisioned Kubernetes resources with Terraform, and created a Jenkins CI/CD pipeline to build, test, push Docker images, and deploy updates.
 ```
 
-## Interview Explanation
-
-```text
-I built a small student marketplace app called CampusCart. The app is a Java Spring Boot application with MySQL persistence and simple product browsing, cart, and checkout features. I containerized the app and database with Docker, used Kubernetes for orchestration, Terraform for provisioning Kubernetes resources, and Jenkins for CI/CD. The pipeline builds the Java app, runs tests, builds and pushes the Docker image, and deploys the latest image to Kubernetes.
-```
